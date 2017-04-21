@@ -3,16 +3,16 @@
 $page_alias='';
 if(isset($_GET['page']))
 {
-$params=$_GET['page'];
-if(substr($params, -1) == '/') {
-    $params = substr($params, 0, -1);
-}
-
-//header("Location:datiles.php?datils_id=9")
-
-
-$param=explode("/",$params);
-$page_alias=$param[0];
+	$params=$_GET['page'];
+	if(substr($params, -1) == '/') {
+		$params = substr($params, 0, -1);
+	}
+	
+	//header("Location:datiles.php?datils_id=9")
+	
+	
+	$param=explode("/",$params);
+	$page_alias=$param[0];
  }
 	
 	 $query="SELECT * FROM `url_aliases` where  `url_aliases`.`alias`='$page_alias'";
