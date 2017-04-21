@@ -1,5 +1,5 @@
 <?php 
- 
+//Main SEO FUNCTIONS FOR SITE 
 $page_alias='';
 if(isset($_GET['page']))
 {
