@@ -1,4 +1,5 @@
 <?php 
+//This is main config file
 $siteurl_blog="http://localhost/onebuck_examples/";
 $site_title="Onebuck Resume";
 
